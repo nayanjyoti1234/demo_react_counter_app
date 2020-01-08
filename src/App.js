@@ -1,6 +1,6 @@
-import React from 'react';
-import Fcomp from './components/Fcomp';
-import Ui from './components/Ui';
+import React from  'react';
+import Fcomp from  './components/Fcomp';
+import Ui    from  './components/Ui';
 import './App.css';
 class App extends React.Component{
   state={
@@ -17,12 +17,12 @@ this.setState({num:0});
 }
   render(){
       return(
-        <div className='wrapper'>
-          <Fcomp  addnum={this.addnum}
-                  subnum={this.subnum}
-                  reset={this.reset}
-          />
-          <Ui num={this.state.num}/>
+          <div className='wrapper'>
+            <Fcomp  addnum={this.addnum}
+                    subnum={this.subnum}
+                    reset={this.reset}
+              />
+            <Ui num={this.state.num}/>
           </div>
       )
     }

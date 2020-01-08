@@ -1,12 +1,12 @@
 import React from 'react';
-
+import { Button } from 'reactstrap';
 const Fcomp=(props)=>{
     const {addnum,subnum,reset}=props;
  return(
         <div className='buttons'>
-        <button onClick={addnum} className='bt1'><span className='add'> + </span></button>
-        <button onClick={subnum} className='bt2'><span className='sub'> - </span></button>
-        <button onClick={reset}  className='bt3'><span className='reset'> reset </span></button>
+        <Button onClick={addnum} className="bt1" color="success"><span className='add'> + </span></Button>
+        <Button onClick={subnum} className="bt2" color="danger"><span className='sub'> - </span></Button>
+        <Button onClick={reset}  className="bt3" color="warning"><span className='reset'> reset </span></Button>
         </div>
      );
 }

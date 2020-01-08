@@ -1,11 +1,11 @@
+
 .wrapper{
   height: 500px;
   width : 100%;
   background-color:powderblue;
 }
 
-.bt1{
-  background-color: green; /* Green */
+.bt1{ /* Green */
   border: none;
   color: white;
   padding: 40px 82px;
@@ -14,8 +14,7 @@
   display: inline-block;
   font-size: 66px;
 }
-.bt2{
-  background-color:red; /* Green */
+.bt2{ /* Green */
   border: none;
   color: white;
   padding: 40px 82px;
@@ -25,7 +24,7 @@
   font-size: 66px;
 }
 .bt3{
-  background-color:orchid; /* Green */
+/* Green */
   border: none;
   color: white;
   padding: 40px 135px;
