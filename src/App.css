@@ -2,11 +2,10 @@
   height: 500px;
   width : 100%;
   background-color:powderblue;
-
 }
 
 .bt1{
-  background-color: #4CAF50; /* Green */
+  background-color: green; /* Green */
   border: none;
   color: white;
   padding: 40px 82px;
@@ -36,7 +35,7 @@
   font-size: 66px;
 }
 .wrapui{
-  background-color:palegreen;
+  background-color:powderblue;
   padding: 40px 135px;
   text-align: center;
   height: 200px;
