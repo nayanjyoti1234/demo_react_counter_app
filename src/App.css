@@ -1,0 +1,56 @@
+.wrapper{
+  height: 500px;
+  width : 100%;
+  background-color:powderblue;
+
+}
+
+.bt1{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 40px 82px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 66px;
+}
+.bt2{
+  background-color:red; /* Green */
+  border: none;
+  color: white;
+  padding: 40px 82px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 66px;
+}
+.bt3{
+  background-color:orchid; /* Green */
+  border: none;
+  color: white;
+  padding: 40px 135px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 66px;
+}
+.wrapui{
+  background-color:palegreen;
+  padding: 40px 135px;
+  text-align: center;
+  height: 200px;
+}
+.buttons{
+ text-align: center;
+ height: 150px;
+}
+.num{
+  background-color:burlywood;
+  color: white;
+  padding: 40px 135px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 66px;
+}
